@@ -3,9 +3,9 @@ import React from "react";
 const HelpContainerHeader = () => {
   return (
     <div className="text-left text-xl flex flex-col md:text-3xl">
-      <span>HIZLI YARDIM</span>
+      <span>QUICK ASSISTS</span>
       <span className="text-base">
-        Sık sorulan soruların yanıtlarına yalnızca bir tıkla ulaşabilirsin.
+        Answers to our most frequently asked questions are just one click away.
       </span>
       <hr className="my-4" />
     </div>

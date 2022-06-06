@@ -27,7 +27,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike Air Max Terrascape 90",
       Desc: "Erkek Ayakkabısı",
-      Color: "2 Renk",
+      Color: "2 Colour",
       Price: "2.179,90",
     },
     {
@@ -37,7 +37,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike Air Max Dawn",
       Desc: "Erkek Ayakkabısı",
-      Color: "4 Renk",
+      Color: "4 Colour",
       Price: "1.669,90",
     },
     {
@@ -47,7 +47,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike WinFlo 8",
       Desc: "Erkek Yol Koşu Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "1.449,90",
     },
     {
@@ -57,7 +57,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike ZoomX Vaporfly Next% 2",
       Desc: "Erkek Yol Yarış Ayakkabısı",
-      Color: "5 Renk",
+      Color: "5 Colour",
       Price: "3.629,90",
     },
     {
@@ -67,7 +67,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike Air Max Plus",
       Desc: "Erkek Ayakkabısı",
-      Color: "2 Renk",
+      Color: "2 Colour",
       Price: "2.469,90",
     },
     {
@@ -77,7 +77,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Blazer Mid '77 Jumbo",
       Desc: "Erkek Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "1.599,90",
     },
     {
@@ -87,7 +87,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Zoom Fly 4",
       Desc: "Yol Koşu Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "2.469,90",
     },
     {
@@ -97,7 +97,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Pegasus Trail 3 GORE-TEX",
       Desc: "Su Geçirmez Arazi Tipi Erkek Koşu Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "2.179,90",
     },
     {
@@ -107,7 +107,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Huarache",
       Desc: "Erkek Ayakkabısı",
-      Color: "7 Renk",
+      Color: "7 Colour",
       Price: "1.599,90",
     },
     {
@@ -117,7 +117,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Huarache",
       Desc: "Erkek Ayakkabısı",
-      Color: "7 Renk",
+      Color: "7 Colour",
       Price: "1.599,90",
     },
     {
@@ -127,7 +127,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Max Plus 3",
       Desc: "Erkek Ayakkabısı",
-      Color: "2 Renk",
+      Color: "2 Colour",
       Price: "2.599,90",
     },
     {
@@ -137,7 +137,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Zoom Terra Kiger 8",
       Desc: "Arazi Tipi Erkek Koşu Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "2.029,90",
     },
     {
@@ -147,7 +147,7 @@ const ManProducts = () => {
       New: true,
       Title: "Kyrie Infinity",
       Desc: "Basketbol Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "1.899,90",
     },
     {
@@ -157,7 +157,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Trainer 1 SP",
       Desc: "Erkek Ayakkabısı",
-      Color: "2 Renk",
+      Color: "2 Colour",
       Price: "1.899,90",
     },
     {
@@ -167,7 +167,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Air Zoom SuperRep 3",
       Desc: "Erkek HIIT Dersi Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "1.899,90",
     },
     {
@@ -177,7 +177,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike Metcon 7",
       Desc: "Antrenman Ayakkabısı",
-      Color: "7 Renk",
+      Color: "7 Colour",
       Price: "1.899,90",
     },
     {
@@ -187,7 +187,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike ACG Air Mada",
       Desc: "Erkek Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "2.099,90",
     },
     {
@@ -197,7 +197,7 @@ const ManProducts = () => {
       New: false,
       Title: "LeBron 19",
       Desc: "Basketbol Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "2.749,90",
     },
     {
@@ -207,7 +207,7 @@ const ManProducts = () => {
       New: true,
       Title: "NikeCourt Zoom Vapor Cage 4 Rafa",
       Desc: "Sert Kort Erkek Tenis Ayakkabısı",
-      Color: "4 Renk",
+      Color: "4 Colour",
       Price: "1.749,90",
     },
     {
@@ -217,7 +217,7 @@ const ManProducts = () => {
       New: true,
       Title: "Air Jordan 13 Retro Low",
       Desc: "Erkek Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "3.199,90",
     },
     {
@@ -227,7 +227,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike React Infinity Run 3 By You",
       Desc: "Kişiye Özel Erkek Yol Koşu Ayakkabısı",
-      Color: "6 Renk",
+      Color: "6 Colour",
       Price: "2.759,90",
     },
     {
@@ -237,7 +237,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike SB Chron 2 Canvas",
       Desc: "Kaykay Ayakkabısı",
-      Color: "4 Renk",
+      Color: "4 Colour",
       Price: "699,90",
     },
     {
@@ -247,7 +247,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike React Infinity Run Flyknit 3",
       Desc: "Erkek Yol Koşu Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "2.329,90",
     },
     {
@@ -257,7 +257,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike SB Shane PRM",
       Desc: "Kaykay Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "929,90",
     },
     {
@@ -267,7 +267,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike Go FlyEase",
       Desc: "Ayakkabı",
-      Color: "4 Renk",
+      Color: "4 Colour",
       Price: "1.799,90",
     },
     {
@@ -277,7 +277,7 @@ const ManProducts = () => {
       New: true,
       Title: "Air Jordan 7 Retro SE",
       Desc: "Erkek Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "3.199,90",
     },
     {
@@ -287,7 +287,7 @@ const ManProducts = () => {
       New: true,
       Title: "Jordan Zoom Separate",
       Desc: "Basketbol Ayakkabısı",
-      Color: "3 Renk",
+      Color: "3 Colour",
       Price: "1.749,90",
     },
     {
@@ -297,7 +297,7 @@ const ManProducts = () => {
       New: true,
       Title: "Nike Tiempo Legend 9 Academy MG",
       Desc: "Çoklu Zemin Kramponu",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "1.099,90",
     },
     {
@@ -307,7 +307,7 @@ const ManProducts = () => {
       New: false,
       Title: "Air Jordan 1",
       Desc: "Ayakkabı",
-      Color: "2 Renk",
+      Color: "2 Colour",
       Price: "2.899,90",
     },
     {
@@ -317,7 +317,7 @@ const ManProducts = () => {
       New: false,
       Title: "Nike x sacai Blazer Low",
       Desc: "Erkek Ayakkabısı",
-      Color: "1 Renk",
+      Color: "1 Colour",
       Price: "1.799,90",
     },
   ];

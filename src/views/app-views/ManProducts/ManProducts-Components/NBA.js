@@ -3,7 +3,7 @@ import React from "react";
 const NBA = () => {
   return (
     <div className="p-2 mb-10">
-      NBA
+      <span className="font-bold">NBA</span>
       <div className="mt-2">
         <input type="checkbox" className="custom-checkbox" />
         <label className="ml-1">Los Angeles Lakers</label>

@@ -5,7 +5,7 @@ const KidsAd = () => {
   return (
     <div className="mb-20">
       <div className="head-text ">
-        <span className="text-2xl">Kaçırma</span>
+        <span className="text-2xl">Kidnapping</span>
         <div className="image-wrapper mt-4 mb-4 ">
           <img
             className="hidden lg:block md:block"
@@ -19,14 +19,14 @@ const KidsAd = () => {
           />
         </div>
         <div className="flex flex-col text-center">
-          Büyülü Air
+          Magical Air
           <span className="text-kids-ad-head-text">
-            ÇOCUKLAR iÇiN AiR MAX MOTiF
+            AIR MAX MOTIF FOR KIDS
           </span>
         </div>
         <div className="flex justify-center">
           <button className="bg-black rounded-full px-6 py-1.5 text-white text-opacity-80 hover:bg-gray-400">
-            İncele
+            Review
           </button>
         </div>
       </div>

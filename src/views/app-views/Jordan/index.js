@@ -14,7 +14,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/18363fd7-d557-4c97-956a-722a392dfce1/paris-saint-germain-2022-23-stadyum-dördüncü-dri-fit-genç-futbol-forması-Kw8xlh.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "NİKE DRİ-FIT GENÇ ÇOCUK FUTBOL FORMASI",
-      Price: "₺949,90",
+      Price: "$949,90",
     },
     {
       Id: 2,
@@ -22,7 +22,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/273c9d02-7f70-4a50-87ad-585dd78bb51a/paris-saint-germain-2022-23-stadyum-dördüncü-dri-fit-futbol-forması-jjJCgn.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "NİKE DRİ-FIT KADIN FUTBOL FORMASI",
-      Price: "₺1.229,90",
+      Price: "$1.229,90",
     },
     {
       Id: 3,
@@ -30,7 +30,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/7e8e6f63-a44a-41dd-9950-2b60c970d0e2/paris-saint-germain-2022-23-maç-dördüncü-dri-fit-adv-futbol-forması-DGxb9Z.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "NİKE DRİ-FIT ADV ERKEK FUTBOL FORMASI",
-      Price: "₺1.899,90",
+      Price: "$1.899,90",
     },
     {
       Id: 4,
@@ -38,7 +38,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/6e56f3a0-04ee-49ea-b464-5c262326c6e6/jordan-10-paris-saint-germain-fleece-eşofman-altı-qQX38k.png",
       Title: "JORDAN X PARİS SAİNT-GERMAİN",
       Desc: "FLEECE KADIN EŞOFMAN ALTI",
-      Price: "₺1.159,90",
+      Price: "$1.159,90",
     },
     {
       Id: 5,
@@ -46,7 +46,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/23a9ecf8-689b-4481-baa5-2dcdbf462442/jordan-10-paris-saint-germain-fleece-kapüşonlu-üstü-cQvPk9.png",
       Title: "JORDAN X PARİS SAİNT-GERMAİN",
       Desc: "FLEECE KADIN KAPÜŞONLU ÜSTÜ",
-      Price: "₺1.299,90",
+      Price: "$1.299,90",
     },
     {
       Id: 6,
@@ -54,7 +54,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/c9609d91-024c-409e-a373-6c7e81928f0f/paris-saint-germain-2022-23-stadyum-dördüncü-dri-fit-futbol-forması-Gw13JH.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "NİKE DRİ-FIT ERKEK FUTBOL FORMASI",
-      Price: "₺1.229,90",
+      Price: "$1.229,90",
     },
     {
       Id: 7,
@@ -62,7 +62,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/36a16186-21a1-4176-8a5c-748d6a6f4c8b/paris-saint-germain-2022-23-stadyum-dördüncü-dri-fit-futbol-şortu-LdpFBN.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "NİKE DRİ-FIT ERKEK FUTBOL ŞORTU",
-      Price: "₺549,90",
+      Price: "$549,90",
     },
     {
       Id: 8,
@@ -70,7 +70,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/13c20aff-0983-4393-8b80-fead9c433b37/paris-saint-germain-2022-23-stadyum-dördüncü-genç-futbol-şortu-JwRl3b.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "GENÇ ÇOCUK FUTBOL ŞORTU",
-      Price: "₺479,90",
+      Price: "$479,90",
     },
     {
       Id: 9,
@@ -78,7 +78,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/9df49360-7820-4d46-828c-3d18f914bd6d/paris-saint-germain-grafikli-tişörtü-r0Cb2x.png",
       Title: "PARİS SAİNT-GERMAİN",
       Desc: "GRAFİKLİ KADIN TİŞÖRTÜ",
-      Price: "₺629,90",
+      Price: "$629,90",
     },
     {
       Id: 10,
@@ -86,7 +86,7 @@ const Jordan = () => {
         "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_566,c_limit/9df49360-7820-4d46-828c-3d18f914bd6d/paris-saint-germain-grafikli-tişörtü-r0Cb2x.png",
       Title: "PARİS SAİNT-GERMAİN 2022/23 STADYUM DÖRDÜNCÜ",
       Desc: "KÜÇÜK ÇOCUK FUTBOL FORMASI",
-      Price: "₺869,90",
+      Price: "$869,90",
     },
   ];
   const JordanCategoriess = [

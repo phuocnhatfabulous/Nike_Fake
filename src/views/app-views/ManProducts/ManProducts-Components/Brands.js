@@ -3,7 +3,7 @@ import React from "react";
 const Brands = () => {
   return (
     <div className="p-2">
-      <span>Marka</span>
+      <span className="font-bold">Brand</span>
       <div className="mt-2">
         <input type="checkbox" className="custom-checkbox" />
         <label className="ml-1">Nike Sportswear</label>

@@ -3,7 +3,7 @@ import React from "react";
 const Icons = () => {
   return (
     <div className="p-2">
-      <span>Icon</span>
+      <span className="font-bold">Icon</span>
       <div className="mt-2">
         <input type="checkbox" className="custom-checkbox" />
         <label className="ml-1">Air Force 1</label>

@@ -6,110 +6,110 @@ const HelpContainer = () => {
   const gridCargo = [
     {
       Id: 1,
-      Title: "KARGO VE TESLİMAT",
+      Title: "DISPATCH & DELIVERY",
     },
     {
       Id: 2,
-      Title: "Nike Si̇pari̇şleri̇nde Ücretsi̇z Kargodan Nasil Yararlanabi̇li̇ri̇m?",
+      Title: "How do I get free delivery on Nike orders?",
     },
     {
       Id: 3,
-      Title: "Nike'in Tesli̇mat Seçenekleri̇ Nelerdi̇r?",
+      Title: "What are Nike's delivery options?",
     },
     {
       Id: 4,
-      Title: "Nike Si̇pari̇şi̇m Uluslararasi Gönderi̇me Uygun Mu?",
+      Title: "Can my Nike order be dispatched internationally?",
     },
   ];
   const gridRefunds = [
     {
       Id: 1,
-      Title: "İADELER",
+      Title: "RETURNS",
     },
     {
       Id: 2,
-      Title: "Nike siparişimi nasıl iade ederim?",
+      Title: "How do I return my Nike order?",
     },
     {
       Id: 3,
-      Title: "Nike'ın iade politikası nedir?",
+      Title: "What is Nike's returns policy?",
     },
     {
       Id: 4,
-      Title: "Ödeme iadem nerede?",
+      Title: "Where is my refund?",
     },
   ];
   const gridAccounts = [
     {
       Id: 1,
-      Title: "NIKE ÜYELİĞİ",
+      Title: "NIKE MEMBERSHIP",
     },
     {
       Id: 2,
-      Title: "Nike Üyeliği nedir?",
+      Title: "What is Nike Membership?",
     },
     {
       Id: 3,
-      Title: "Nasıl Nike Üye Profili oluşturabilirim?",
+      Title: "How do I become a Nike Member?",
     },
     {
       Id: 4,
       Title:
-        "NRC ve NTC uygulamalarından en verimli şekilde nasıl faydalanırım?",
+        "How do I get the most out of NRC and NTC?",
     },
   ];
   const gridOrders = [
     {
       Id: 1,
-      Title: "SİPARİŞLER",
+      Title: "ORDERS",
     },
     {
       Id: 2,
-      Title: "Nike siparişimin durumunu nasıl takip ederim?",
+      Title: "Where is my Nike order?",
     },
     {
       Id: 3,
-      Title: "Nike si̇pari̇şi̇mi̇ i̇ptal edebi̇li̇r mi̇yi̇m veya deği̇şti̇rebi̇li̇r mi̇yi̇m?",
+      Title: "Can I change or cancel my Nike order?",
     },
     {
       Id: 4,
-      Title: "Nike Si̇pari̇şleri̇nde Hangi̇ Ödeme Seçenekleri̇ni̇ Kullanabi̇li̇ri̇m?",
+      Title: "What payment options can I use on Nike orders?",
     },
   ];
   const gridProducts = [
     {
       Id: 1,
-      Title: "ÜRÜN BİLGİLERİ",
+      Title: "PRODUCT INFO",
     },
     {
       Id: 2,
-      Title: "Nike'ın en yeni spor ayakkabılarını nasıl edinebilirim?",
+      Title: "How do I get Nike’s newest sneaker releases?",
     },
     {
       Id: 3,
-      Title: "Doğru bedeni/numarayı ve uyumu nasıl bulurum?",
+      Title: "How do I find the right size and fit?",
     },
     {
       Id: 4,
-      Title: "Nike By You'nin kişiselleştirme politikası nedir?",
+      Title: "What is Nike By You's personalisation policy?",
     },
     {
       Id: 5,
-      Title: "Nike ayakkabıların garantisi var mı?",
+      Title: "Do Nike shoes have a warranty?",
     },
   ];
   const gridCorporation = [
     {
       Id: 1,
-      Title: "KURUMSAL ",
+      Title: "CORPORATE",
     },
     {
       Id: 2,
-      Title: "Nike, Inc. hakkında daha fazla bilgiye nereden ulaşabilirim?",
+      Title: "Where can I get more info about Nike, Inc.?",
     },
     {
       Id: 3,
-      Title: "Bana en yakın Nike mağazası nerede?",
+      Title: "Where is the Nike store closest to me?",
     },
   ];
   return (

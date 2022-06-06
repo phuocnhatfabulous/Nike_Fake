@@ -14,7 +14,7 @@ const Cart = () => {
         <div className="mt-48">
           Favorilerini görüntülemek ister misin?{" "}
           <Link to="/register">
-            <span className="underline opacity-70">Bize Katıl</span>
+            <span className="underline opacity-70">Join Us</span>
           </Link>{" "}
           veya{" "}
           <Link to="/login">
@@ -24,11 +24,11 @@ const Cart = () => {
       </div>
       <div className="flex flex-col gap-2">
         <span className="text-2xl">Özet</span>
-        <span> Ara Toplam: ₺0,00</span>
-        <span>Tahmini Kargo ve İşlem Ücreti: ₺0,00</span>
+        <span> Ara Toplam: $0,00</span>
+        <span>Tahmini Kargo ve İşlem Ücreti: $0,00</span>
         <hr />
         <span className="font-semibold">
-          Toplam: <span>₺0,00</span>
+          Toplam: <span>$0,00</span>
         </span>
         <hr />
         <div className="flex flex-col buttons-cart">

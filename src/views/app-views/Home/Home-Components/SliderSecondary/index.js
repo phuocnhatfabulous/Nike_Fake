@@ -36,7 +36,7 @@ const SliderSecondary = () => {
   return (
     <div className="mb-20">
       <div className="flex justify-between items-end mr-10 mb-3">
-        <span className="sm:text-2xl">SNKRS'ta En Yeniler</span>
+        <span className="sm:text-2xl">Latest on SNKRS</span>
         <div className="Slider-Buttons">
           <button
             onClick={() => {
@@ -59,14 +59,14 @@ const SliderSecondary = () => {
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/7443e12d-4322-4bd5-9e82-4d69bd5fd17c/kadınlar-için-air-jordan-6-mint-foam-dq4914-103-lansman-tarihi.jpg"
-            alt="Kadınlar İçin Air Jordan 6"
+            alt="Air Jordan 6 For Women"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
-              <span>Kadınlar İçin Air Jordan 6</span>
-              <span className="opacity-50">Kadın Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺3.199,90</span>
+              <span>Air Jordan 6 For Women</span>
+              <span className="opacity-50">Women's Shoes</span>
+              <span className="mr-10 opacity-50">$3.199,90</span>
             </div>
           </div>
         </div>
@@ -77,11 +77,11 @@ const SliderSecondary = () => {
             alt="gore-tex air jordan"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>Air Jordan 1 GORE-TEX</span>
-              <span className="opacity-50">Ayakkabı</span>
-              <span className="mr-10 opacity-50">₺2.899,90</span>
+              <span className="opacity-50">Shoes</span>
+              <span className="mr-10 opacity-50">$2.899,90</span>
             </div>
           </div>
         </div>
@@ -91,11 +91,11 @@ const SliderSecondary = () => {
             alt="Erkek Ayakkabısı"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>Air Max 95</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.599,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.599,90</span>
             </div>
           </div>
         </div>
@@ -105,11 +105,11 @@ const SliderSecondary = () => {
             alt="ACG Mountain"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>ACG Mountain Fly Low GORE-TEX</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.599,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.599,90</span>
             </div>
           </div>
         </div>
@@ -119,11 +119,11 @@ const SliderSecondary = () => {
             alt="ACG Air Mada"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>ACG Air Mada</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.099,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.099,90</span>
             </div>
           </div>
         </div>
@@ -133,11 +133,11 @@ const SliderSecondary = () => {
             alt="ACG Air Mada"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>ACG Air Mada</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.099,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.099,90</span>
             </div>
           </div>
         </div>
@@ -147,11 +147,11 @@ const SliderSecondary = () => {
             alt="ACG Air Mada"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>ACG Air Mada</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.099,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.099,90</span>
             </div>
           </div>
         </div>
@@ -161,11 +161,11 @@ const SliderSecondary = () => {
             alt="ACG Mountain Fly Low"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>ACG Mountain Fly Low GORE-TEX</span>
-              <span className="opacity-50">Erkek Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.599,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.599,90</span>
             </div>
           </div>
         </div>
@@ -175,11 +175,11 @@ const SliderSecondary = () => {
             alt="Air MAX 95"
           />
           <div className="image-description mt-4 flex flex-col">
-            <span className="text-red-500">SNKRS Özel</span>
+            <span className="text-red-500">SNKRS Special</span>
             <div className="flex flex-col">
               <span>Kadınlar İçin Air Max 95</span>
-              <span className="opacity-50">Kadın Ayakkabısı</span>
-              <span className="mr-10 opacity-50">₺2.749,90</span>
+              <span className="opacity-50">Man shoes</span>
+              <span className="mr-10 opacity-50">$2.749,90</span>
             </div>
           </div>
         </div>

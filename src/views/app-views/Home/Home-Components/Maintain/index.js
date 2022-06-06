@@ -4,14 +4,14 @@ const Maintain = () => {
   return (
     <div>
       <div className="header-text-maintain mb-4">
-        <span className="text-2xl">Seni İleriye Taşıyacak Stiller</span>
+        <span className="text-2xl">Styles That Will Take You Forward</span>
       </div>
 
       <div className="grid  grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-10 gap-2">
         <div className="col-span-1">
           <div className="relative">
             <div className="absolute bottom-10 left-10 text-white">
-              Yeni Sezon. Yeni Hedefler.
+              New season. New Goals.
               <div className="mt-10">
                 <button className="bg-white rounded-full px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-300">
                   İncele
@@ -27,10 +27,10 @@ const Maintain = () => {
         <div className="col-span-1">
           <div className="relative">
             <div className="absolute bottom-10 left-10 text-white">
-              Canlan ve Yenilen
+              Revive and Renew
               <div className="mt-10">
                 <button className="bg-white rounded-full px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-300">
-                  İncele
+                  Review
                 </button>
               </div>
             </div>

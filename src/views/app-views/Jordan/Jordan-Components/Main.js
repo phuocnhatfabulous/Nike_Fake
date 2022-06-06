@@ -16,7 +16,7 @@ const Main = () => {
       </div>
 
       <span className="jordan-desc">
-        Jordan ile Paris Saint-Germain, yeni bir renk grubu ve 1990'lardan ilham
+        Jordan ile Paris Saint-Germain, yeni bir Colour grubu ve 1990'lardan ilham
         alan dikkat çekici bir motifle iş birliklerini bir üst düzeye taşıyor.
       </span>
       <button className="jordan-button">İncele</button>

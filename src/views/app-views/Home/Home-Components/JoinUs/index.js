@@ -4,7 +4,7 @@ import "./JoinUs.scss";
 const JoinUs = () => {
   return (
     <div className="mb-10">
-      <span className="text-2xl">Bize Katıl</span>
+      <span className="text-2xl">Join Us</span>
       <div className="image-wrapper mt-4">
         <div className="relative">
           <img
@@ -21,7 +21,7 @@ const JoinUs = () => {
           <span className="text-in-photo-desc">
             Üye ol ve Nike By You ile sevgini göster.
           </span>
-          <button className="button-in-photo">Bize Katıl</button>
+          <button className="button-in-photo">Join Us</button>
         </div>
       </div>
     </div>

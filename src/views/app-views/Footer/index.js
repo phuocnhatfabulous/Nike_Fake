@@ -3,97 +3,98 @@ import FooterNav from "./Footer-Components/FooterNav";
 import GridIcons from "./Footer-Components/GridIcons";
 import Privacy from "./Footer-Components/Privacy";
 import "./Footer.scss";
+import '../../../index.css'
 const Footer = () => {
   const gridHelp = [
     {
       Id: 1,
-      Name: "YARDIM AL",
+      Name: "GET HELP",
       Link: "/help",
     },
     {
       Id: 2,
-      Name: "Sipariş Durumu",
+      Name: "Order status",
       Link: "/orders",
     },
     {
       Id: 3,
-      Name: "Kargo ve Teslimat",
+      Name: "Delivery",
       Link: "/help",
     },
     {
       Id: 4,
-      Name: "İadeler",
+      Name: "Revenues",
       Link: "/help",
     },
     {
       Id: 5,
-      Name: "Ödeme Seçenekleri",
+      Name: "Payment options",
       Link: "/help",
     },
     {
       Id: 6,
-      Name: "Bize Ulaşın",
+      Name: "Contact us",
       Link: "/contact",
     },
   ];
   const gridTitle = [
     {
       Id: 1,
-      Name: "MAĞAZA BUL",
+      Name: "OUR LOCATION",
       Link: "/retail",
     },
     {
       Id: 2,
-      Name: "E-POSTA İÇİN KAYDOL",
+      Name: "EMAIL FOR US",
       Link: "/email-signup",
     },
     {
       Id: 3,
-      Name: "ÜYE OL",
+      Name: "SIGN UP",
       Link: "/register",
     },
     {
       Id: 4,
-      Name: "GERİ BİLDİRİM",
-      Link: "/#site-feedback",
+      Name: "FEEDBACKS",
+      Link: "/feedback",
     },
     {
       Id: 5,
-      Name: "PROMOSYON KODLARI",
-      Link: "/promosyon-kodu",
+      Name: "PROMOTIONAL CODES",
+      Link: "/gift",
     },
   ];
   const gridAbout = [
     {
       Id: 1,
-      Name: "NIKE HAKKINDA",
+      Name: "ABOUT NIKE",
       Link: "/about",
     },
     {
       Id: 2,
-      Name: "Haberler",
+      Name: "News",
       Link: "/news",
     },
     {
       Id: 3,
-      Name: "Kariyer",
+      Name: "Careers",
       Link: "/jobs",
     },
     {
       Id: 4,
-      Name: "Yatırımcılar",
+      Name: "Investors",
       Link: "/investors",
     },
     {
       Id: 5,
-      Name: "Sürdürülebilirlik",
-      Link: "/surdurulebilirlik",
+      Name: "Sustainability",
+      Link: "/Sustainability",
     },
   ];
   const gridApp = [
     {
       Id: 1,
-      Name: "NIKE Uygulamaları",
+      Name: "NIKE APPS",
       Link: "/nike-app",
     },
     {

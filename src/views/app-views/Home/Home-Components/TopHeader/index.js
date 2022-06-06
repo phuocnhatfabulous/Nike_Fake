@@ -17,12 +17,12 @@ const TopHeader = () => {
           <ul>
             <Link to="/help">
               {" "}
-              <li>Yardım</li>
+              <li>Help</li>
             </Link>
             <li className="separator-top-menu">|</li>
             <Link to="/register">
               {" "}
-              <li>Bize Katıl</li>{" "}
+              <li>Sign Up</li>{" "}
             </Link>
             <li className="separator-top-menu">|</li>
             <LoginModal />

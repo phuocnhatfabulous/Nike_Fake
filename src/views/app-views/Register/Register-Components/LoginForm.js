@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import '../../../../index.css'
 
 const LoginForm = ({ setOturumAc }) => {
   useEffect(() => {
@@ -15,38 +16,38 @@ const LoginForm = ({ setOturumAc }) => {
       </div>
       <div className="header-text">
         <span>
-          NIKE'A DAİR HER ŞEY İÇİN <br /> HESABIN
+          FOR EVERYTHING ABOUT NIKE <br /> YOUR ACCOUNT
         </span>
       </div>
       <form>
         <div className="login-panel-form">
-          <input required placeholder="E-posta adresi" type="text" />
-          <input required placeholder="Şifre" type="password" />
+          <input required placeholder="Email address" type="text" />
+          <input required placeholder="Password" type="password" />
           <span className="login-panel-desc">
-            Oturum açarak Nike'ın{" "}
+            <input type="checkbox" className="m-0" />
+            {" "}I agree to Nike{" "}
             <a
               href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&country=TR&language=tr&mobileStatus=false&requestType=redirect&uxId=com.nike.commerce.nikedotcom.web"
               className="underline"
             >
-              Gizlilik Politikası
+              Privacy Policy {" "}
             </a>
-            'nı ve <br />{" "}
+            & {" "}
             <a
               href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfUse&country=TR&language=tr&mobileStatus=false&requestType=redirect&uxId=com.nike.commerce.nikedotcom.web"
               className="underline"
             >
-              Kullanım Şartları
+              Terms of use
             </a>
-            'nı kabul etmiş olursun.
           </span>
-          <button className="login-panel-button">OTURUM AÇ</button>
+          <button className="login-panel-button">SIGN IN</button>
           <span className="text-center mt-4 text-xs">
-            Üye değil misin?{" "}
+            Not a member?{" "}
             <span
               className="underline cursor-pointer"
               onClick={() => setOturumAc(true)}
             >
-              Bize Katıl.
+              Join Us.
             </span>
           </span>
         </div>

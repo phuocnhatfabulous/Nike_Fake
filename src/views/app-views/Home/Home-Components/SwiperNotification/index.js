@@ -22,11 +22,11 @@ const SwiperNotification = () => {
         className="swiper-notification"
         modules={[Autoplay, Pagination]}
       >
-        <SwiperSlide>İade süremizi 60 güne uzattık.</SwiperSlide>
+        <SwiperSlide>We have extended our return period to 60 days.</SwiperSlide>
         <SwiperSlide>
-          Yeni Çıktı: Nike App.{" "}
+          New Release: Nike App.{" "}
           <Link to="/nike-app">
-            <span className="app-link">Daha fazla bilgi edin</span>
+            <span className="app-link">Learn more</span>
           </Link>
         </SwiperSlide>
       </Swiper>

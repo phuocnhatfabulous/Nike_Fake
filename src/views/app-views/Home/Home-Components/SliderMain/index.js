@@ -36,7 +36,7 @@ const SliderMain = () => {
   return (
     <div className="mb-20">
       <div className="flex justify-between items-end mr-10 mb-3">
-        <span className="text-2xl">Hazırlan</span>
+        <span className="text-2xl">Get ready</span>
         <div className="Slider-Buttons">
           <button
             onClick={() => {
@@ -64,7 +64,7 @@ const SliderMain = () => {
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
               <span>Nike Air Zoom Pegasus 38</span>
-              <span className="mr-10">₺1.749,90</span>
+              <span className="mr-10">$1.749,90</span>
             </div>
 
             <span className="opacity-50">Kadın Yol Koşu Ayakkabısı</span>
@@ -79,7 +79,7 @@ const SliderMain = () => {
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
               <span>Nike Air Zoom Alphafly NEXT% Flyknit</span>
-              <span className="mr-10">₺4.349,90</span>
+              <span className="mr-10">$4.349,90</span>
             </div>
 
             <span className="opacity-50">Kadın Yol Yarış Ayakkabısı</span>
@@ -93,7 +93,7 @@ const SliderMain = () => {
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
               <span>Nike ZoomX Vaporfly Next% 2</span>
-              <span className="mr-10">₺3.629,90</span>
+              <span className="mr-10">$3.629,90</span>
             </div>
 
             <span className="opacity-50">Erkek Yol Yarış Ayakkabısı</span>
@@ -107,7 +107,7 @@ const SliderMain = () => {
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
               <span>Nike ZoomX Streakfly</span>
-              <span className="mr-10">₺2.179,90</span>
+              <span className="mr-10">$2.179,90</span>
             </div>
 
             <span className="opacity-50">Yol Yarış Ayakkabısı</span>
@@ -121,7 +121,7 @@ const SliderMain = () => {
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
               <span>Nike ZoomX Vaporfly Next% 2</span>
-              <span className="mr-10">₺3.629,90</span>
+              <span className="mr-10">$3.629,90</span>
             </div>
 
             <span className="opacity-50">Kadın Yol Yarış Ayakkabısı</span>

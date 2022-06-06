@@ -4,21 +4,51 @@ import Menu from "./Navbar-Components/Menu";
 import "./navbar.scss";
 
 const Navbar = () => {
-  const newProducts = [
+  const menProducts = [
     {
       Id: 1,
-      Name: "Öne Çıkanlar",
+      Name: "New & Featured",
       Parent: null,
       Children: [
         {
           Id: 1000,
-          Name: "Tüm Yeni Sezon Ürünlerini İncele",
+          Name: "New Releases",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1001,
-          Name: "SNKRS Lansman Takvimi",
+          Name: "SNKRS Launch Calendar",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1002,
+          Name: "Member Access",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1003,
+          Name: "Air Force 1",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1004,
+          Name: "Summer Essentials",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1005,
+          Name: "Member Essentials",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1006,
+          Name: "Sale",
           Parent: 1,
           Children: [],
         },
@@ -26,30 +56,78 @@ const Navbar = () => {
     },
     {
       Id: 2,
-      Name: "Yeni Erkek Ürünleri",
+      Name: "Shoes",
       Parent: null,
       Children: [
         {
           Id: 2000,
-          Name: "Ayakkabılar",
+          Name: "Newest Sneakers",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2001,
-          Name: "Giysiler",
+          Name: "All Shoes",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2002,
-          Name: "Ekipmanlar",
+          Name: "Lifestyle",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2003,
-          Name: "Tüm Yeni Erkek Ürünlerini İncele",
+          Name: "Running",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2004,
+          Name: "Basketball",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2005,
+          Name: "Jordan",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2006,
+          Name: "Football",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2007,
+          Name: "Gym and Trainning",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2008,
+          Name: "Skateboarding",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2009,
+          Name: "Tennis",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2010,
+          Name: "Sandals and Slides",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2011,
+          Name: "All Sale Shoes",
           Parent: 2,
           Children: [],
         },
@@ -57,30 +135,90 @@ const Navbar = () => {
     },
     {
       Id: 3,
-      Name: "Yeni Kadın Ürünleri",
+      Name: "Clothing",
       Parent: null,
       Children: [
         {
           Id: 3000,
-          Name: "Ayakkabılar",
+          Name: "All Clothing",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3001,
-          Name: "Giysiler",
+          Name: "Tops and T-shirts",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3002,
-          Name: "Ekipmanlar",
+          Name: "Jerseys and Kits",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3003,
-          Name: "Tüm Yeni Kadın Ürünlerini İncele",
+          Name: "Hoodies and Sweatshirts",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3004,
+          Name: "Jackets and Gilets",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3005,
+          Name: "Pans and Leggings",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3006,
+          Name: "Tracksuits",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3007,
+          Name: "Compression and Base Layer",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3008,
+          Name: "Shorts",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3009,
+          Name: "Caps",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3010,
+          Name: "Socks",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3011,
+          Name: "Bags and Backpacks",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3012,
+          Name: "Accessories and Equipment",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3013,
+          Name: "All Sale Clothing",
           Parent: 3,
           Children: [],
         },
@@ -88,36 +226,36 @@ const Navbar = () => {
     },
     {
       Id: 4,
-      Name: "Yeni Çocuk Ürünleri",
+      Name: "Shop By Sport",
       Parent: null,
       Children: [
         {
           Id: 4000,
-          Name: "Erkek Çocuk Ayakkabıları",
+          Name: "Running",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4001,
-          Name: "Erkek Çocuk Giysileri",
+          Name: "Football",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4002,
-          Name: "Kız Çocuk Ayakkabıları",
+          Name: "Yoga",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4003,
-          Name: "Kız Çocuk Giysileri",
+          Name: "Tennis",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4004,
-          Name: "Tüm Yeni Çocuk Ürünlerini İncele",
+          Name: "Goft",
           Parent: 4,
           Children: [],
         },
@@ -125,7 +263,7 @@ const Navbar = () => {
     },
     {
       Id: 5,
-      Name: "Markaya Göre İncele",
+      Name: "Icons",
       Parent: null,
       Children: [
         {
@@ -167,327 +305,63 @@ const Navbar = () => {
       ],
     },
   ];
-  const manProducts = [
-    {
-      Id: 1,
-      Name: "Öne Çıkanlar",
-      Parent: null,
-      Children: [
-        {
-          Id: 1000,
-          Name: "Yeni Çıkanlar",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1001,
-          Name: "İlkbaharın Başlangıcı",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1002,
-          Name: "SNKRS Lansman Takvimi",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1003,
-          Name: "Üye Erişimi",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1004,
-          Name: "En Çok Satanlar",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1005,
-          Name: "Sürdürülebilir Malzemeler",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1006,
-          Name: "Temel Nike Ürünleri",
-          Parent: 1,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 2,
-      Name: "Ayakkabılar",
-      Parent: null,
-      Children: [
-        {
-          Id: 2000,
-          Name: "Tüm Ayakkabılar",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2001,
-          Name: "İndirimdeki Tüm Ayakkabılar",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2002,
-          Name: "Günlük Giyim",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2003,
-          Name: "Koşu",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2004,
-          Name: "Basketbol",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2005,
-          Name: "Futbol",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2006,
-          Name: "Jordan",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2007,
-          Name: "Spor Salonu Ve Antrenman",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2008,
-          Name: "Kaykay",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2009,
-          Name: "Tenis",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2010,
-          Name: "Golf",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2011,
-          Name: "Nike By You ile Kişiselleştir",
-          Parent: 2,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 3,
-      Name: "Giysiler",
-      Parent: null,
-      Children: [
-        {
-          Id: 3000,
-          Name: "Tüm Giysiler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3001,
-          Name: "İndirimdeki Tüm Giysiler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3002,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3003,
-          Name: "Üstler ve Tişörtler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3004,
-          Name: "Eşofman Altları ve Taytlar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3005,
-          Name: "Eşofmanlar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3006,
-          Name: "Uyumlu Setler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3007,
-          Name: "Şortlar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3008,
-          Name: "Ceketler ve Yelekler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3009,
-          Name: "Formalar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3010,
-          Name: "Polo Üstler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3011,
-          Name: "Büyük Beden ve Uzun Boy",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3012,
-          Name: "Çoraplar",
-          Parent: 3,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 4,
-      Name: "Spora Göre İncele",
-      Parent: null,
-      Children: [
-        {
-          Id: 4000,
-          Name: "Koşu",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4001,
-          Name: "Futbol",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4002,
-          Name: "Basketbol",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4003,
-          Name: "Tenis",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4004,
-          Name: "Golf",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4005,
-          Name: "Spor Salonu ve Antrenman",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4006,
-          Name: "Cross Training",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4007,
-          Name: "Kaykay",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4008,
-          Name: "Yoga",
-          Parent: 4,
-          Children: [],
-        },
-      ],
-    },
-  ];
   const womanProducts = [
     {
       Id: 1,
-      Name: "Öne Çıkanlar",
+      Name: "New & Featured",
       Parent: null,
       Children: [
         {
           Id: 1000,
-          Name: "Yeni Çıkanlar",
+          Name: "New Releases",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1001,
-          Name: "İlkbaharın Başlangıcı",
+          Name: "SNKRS Launch Calendar",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1002,
-          Name: "SNKRS Lansman Takvimi",
+          Name: "Member Access",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1003,
-          Name: "Üye Erişimi",
+          Name: "Air Force 1",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1004,
-          Name: "En Çok Satanlar",
+          Name: "Summer Essentials",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1005,
-          Name: "Sürdürülebilir Malzemeler",
+          Name: "Member Essentials",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1006,
-          Name: "Temel Nike Ürünleri",
+          Name: "Bra and Legging Duos",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1007,
+          Name: "Last Sizes Availabel",
+          Parent: 1,
+          Children: [],
+        },
+        {
+          Id: 1008,
+          Name: "Sale",
           Parent: 1,
           Children: [],
         },
@@ -495,78 +369,78 @@ const Navbar = () => {
     },
     {
       Id: 2,
-      Name: "Ayakkabılar",
+      Name: "Shoes",
       Parent: null,
       Children: [
         {
           Id: 2000,
-          Name: "Tüm Ayakkabılar",
+          Name: "Newest Sneakers",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2001,
-          Name: "İndirimdeki Tüm Ayakkabılar",
+          Name: "All Shoes",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2002,
-          Name: "Günlük Giyim",
+          Name: "Lifestyle",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2003,
-          Name: "Koşu",
+          Name: "Running",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2004,
-          Name: "Basketbol",
+          Name: "Basketball",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2005,
-          Name: "Futbol",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2006,
           Name: "Jordan",
           Parent: 2,
           Children: [],
         },
         {
+          Id: 2006,
+          Name: "Football",
+          Parent: 2,
+          Children: [],
+        },
+        {
           Id: 2007,
-          Name: "Spor Salonu Ve Antrenman",
+          Name: "Gym and Trainning",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2008,
-          Name: "Kaykay",
+          Name: "Skateboarding",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2009,
-          Name: "Tenis",
+          Name: "Tennis",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2010,
-          Name: "Golf",
+          Name: "Sandals and Slides",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2011,
-          Name: "Nike By You ile Kişiselleştir",
+          Name: "All Sale Shoes",
           Parent: 2,
           Children: [],
         },
@@ -574,84 +448,108 @@ const Navbar = () => {
     },
     {
       Id: 3,
-      Name: "Giysiler",
+      Name: "Clothing",
       Parent: null,
       Children: [
         {
           Id: 3000,
-          Name: "Tüm Giysiler",
+          Name: "All Clothing",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3001,
-          Name: "İndirimdeki Tüm Giysiler",
+          Name: "Tops and T-shirts",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3002,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
+          Name: "Jerseys and Kits",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3003,
-          Name: "Üstler ve Tişörtler",
+          Name: "Hoodies and Sweatshirts",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3004,
-          Name: "Eşofman Altları ve Taytlar",
+          Name: "Jackets and Gilets",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3005,
-          Name: "Eşofmanlar",
+          Name: "Pans and Leggings",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3006,
-          Name: "Uyumlu Setler",
+          Name: "Tracksuits",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3007,
-          Name: "Şortlar",
+          Name: "Compression and Base Layer",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3008,
-          Name: "Ceketler ve Yelekler",
+          Name: "Shorts",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3009,
-          Name: "Formalar",
+          Name: "Caps",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3010,
-          Name: "Polo Üstler",
+          Name: "Socks",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3011,
-          Name: "Büyük Beden ve Uzun Boy",
+          Name: "Bags and Backpacks",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3012,
-          Name: "Çoraplar",
+          Name: "Accessories and Equipment",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3013,
+          Name: "Modest Wear",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3014,
+          Name: "Plus size",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3015,
+          Name: "All Sale Clothing",
+          Parent: 3,
+          Children: [],
+        },
+        {
+          Id: 3016,
+          Name: "All Sale Clothing",
           Parent: 3,
           Children: [],
         },
@@ -659,61 +557,80 @@ const Navbar = () => {
     },
     {
       Id: 4,
-      Name: "Spora Göre İncele",
+      Name: "Shop By Sport",
       Parent: null,
       Children: [
         {
           Id: 4000,
-          Name: "Koşu",
+          Name: "Running",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4001,
-          Name: "Futbol",
+          Name: "Football",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4002,
-          Name: "Basketbol",
+          Name: "Yoga",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4003,
-          Name: "Tenis",
+          Name: "Tennis",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4004,
-          Name: "Golf",
+          Name: "Goft",
           Parent: 4,
           Children: [],
         },
+      ],
+    },
+    {
+      Id: 5,
+      Name: "Icons",
+      Parent: null,
+      Children: [
         {
-          Id: 4005,
-          Name: "Spor Salonu ve Antrenman",
-          Parent: 4,
+          Id: 5000,
+          Name: "Nike Sportswear",
+          Parent: 5,
           Children: [],
         },
         {
-          Id: 4006,
-          Name: "Cross Training",
-          Parent: 4,
+          Id: 5001,
+          Name: "NikeLab",
+          Parent: 5,
           Children: [],
         },
         {
-          Id: 4007,
-          Name: "Kaykay",
-          Parent: 4,
+          Id: 5002,
+          Name: "Jordan",
+          Parent: 5,
           Children: [],
         },
         {
-          Id: 4008,
-          Name: "Yoga",
-          Parent: 4,
+          Id: 5003,
+          Name: "Nike SB",
+          Parent: 5,
+          Children: [],
+        },
+        {
+          Id: 5004,
+          Name: "ACG",
+          Parent: 5,
+          Children: [],
+        },
+        {
+          Id: 5005,
+          Name: "Nike Pro",
+          Parent: 5,
           Children: [],
         },
       ],
@@ -722,48 +639,48 @@ const Navbar = () => {
   const kidProducts = [
     {
       Id: 1,
-      Name: "Öne Çıkanlar",
+      Name: "New & Featured",
       Parent: null,
       Children: [
         {
           Id: 1000,
-          Name: "Yeni Çıkanlar",
+          Name: "Member Access",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1001,
-          Name: "İlkbaharın Başlangıcı",
+          Name: "Air Force 1",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1002,
-          Name: "Fleece",
+          Name: "Summer Essentials",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1003,
-          Name: "Spor Ekipmanları",
+          Name: "Bags and Backpacks",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1004,
-          Name: "Dans",
+          Name: "Jordan",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1005,
-          Name: "En Çok Satanlar",
+          Name: "Last Sizes Available",
           Parent: 1,
           Children: [],
         },
         {
           Id: 1006,
-          Name: "Sürdürülebilir Malzemeler",
+          Name: "Sale",
           Parent: 1,
           Children: [],
         },
@@ -771,72 +688,60 @@ const Navbar = () => {
     },
     {
       Id: 2,
-      Name: "Ayakkabılar",
+      Name: "Boys' Shoes",
       Parent: null,
       Children: [
         {
           Id: 2000,
-          Name: "Tüm Ayakkabılar",
+          Name: "Older Kids (3-6.5)",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2001,
-          Name: "Tüm Spor Ayakkabıları",
+          Name: "Younger Kids (10-2.5)",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2002,
-          Name: "Bebek (17-27)",
+          Name: "Baby and Toddler (1.5-9.5)",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2003,
-          Name: "Küçük Çocuk (27,5-35)",
+          Name: "Lifestyle",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2004,
-          Name: "Genç Çocuk (35,5-40)",
+          Name: "Running",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2005,
-          Name: "Günlük Giyim",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2006,
-          Name: "Futbol",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2007,
-          Name: "Koşu",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2008,
           Name: "Jordan",
           Parent: 2,
           Children: [],
         },
         {
-          Id: 2009,
-          Name: "Air Max",
+          Id: 2006,
+          Name: "Football",
           Parent: 2,
           Children: [],
         },
         {
-          Id: 2010,
-          Name: "Air Force 1",
+          Id: 2007,
+          Name: "Sandals and Slides",
+          Parent: 2,
+          Children: [],
+        },
+        {
+          Id: 2011,
+          Name: "All Sale Shoes",
           Parent: 2,
           Children: [],
         },
@@ -844,84 +749,60 @@ const Navbar = () => {
     },
     {
       Id: 3,
-      Name: "Erkek Çocuk Giysileri",
+      Name: "Girls' Shoes",
       Parent: null,
       Children: [
         {
           Id: 3000,
-          Name: "Tüm Erkek Çocuk Giysileri",
+          Name: "Older Kids (3-6.5)",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3001,
-          Name: "Bebek (0-36 Ay)",
+          Name: "Younger Kids (10-2.5)",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3002,
-          Name: "Küçük Çocuk (96-128 CM)",
+          Name: "Baby and Toddler (1.5-9.5)",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3003,
-          Name: "Genç Çocuk (122-170 CM)",
+          Name: "Lifestyle",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3004,
-          Name: "Spor Giysileri",
+          Name: "Running",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3005,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
+          Name: "Jordan",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3006,
-          Name: "Eşofman Altları ve Taytlar",
+          Name: "Badminton",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3007,
-          Name: "Eşofmanlar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3008,
-          Name: "Ceketler ve Yelekler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3009,
-          Name: "Üstler ve Tişörtler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3010,
-          Name: "Şortlar",
+          Name: "Sandals and Slides",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3011,
-          Name: "Formalar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3012,
-          Name: "Çoraplar",
+          Name: "All Sale Shoes",
           Parent: 3,
           Children: [],
         },
@@ -929,90 +810,36 @@ const Navbar = () => {
     },
     {
       Id: 4,
-      Name: "Kız Çocuk Giysileri",
+      Name: "Shop By Sport",
       Parent: null,
       Children: [
         {
           Id: 4000,
-          Name: "Tüm Kız Çocuk Giysileri",
+          Name: "Running",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4001,
-          Name: "Bebek (0-36 Ay)",
+          Name: "Football",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4002,
-          Name: "Küçük Çocuk (96-128 CM)",
+          Name: "Yoga",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4003,
-          Name: "Genç Çocuk (122-170 CM)",
+          Name: "Tennis",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4004,
-          Name: "Spor Giysileri",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4005,
-          Name: "Spor Sütyenleri",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4006,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4007,
-          Name: "Eşofman Altları ve Taytlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4008,
-          Name: "Eşofmanlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4009,
-          Name: "Ceketler ve Yelekler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4010,
-          Name: "Şortlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4011,
-          Name: "Etekler ve Elbiseler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4012,
-          Name: "Formalar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4013,
-          Name: "Çoraplar",
+          Name: "Goft",
           Parent: 4,
           Children: [],
         },
@@ -1020,36 +847,48 @@ const Navbar = () => {
     },
     {
       Id: 5,
-      Name: "Bebek",
+      Name: "Accessories and Equipment",
       Parent: null,
       Children: [
         {
           Id: 5000,
-          Name: "Kız Bebek",
+          Name: "Bags and Backpacks",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5001,
-          Name: "Erkek Bebek",
+          Name: "Earrings",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5002,
-          Name: "Tüm Bebek Ayakkabıları",
+          Name: "Necklace",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5003,
-          Name: "Tüm Bebek Giysileri",
+          Name: "Bracelet",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5004,
-          Name: "Bebek Setleri",
+          Name: "Brooches",
+          Parent: 5,
+          Children: [],
+        },
+        {
+          Id: 5005,
+          Name: "Rings",
+          Parent: 5,
+          Children: [],
+        },
+        {
+          Id: 5005,
+          Name: "Cufflinks",
           Parent: 5,
           Children: [],
         },
@@ -1059,571 +898,96 @@ const Navbar = () => {
   const saleProducts = [
     {
       Id: 1,
-      Name: "Öne Çıkanlar",
+      Name: "Featured",
       Parent: null,
       Children: [
         {
           Id: 1000,
-          Name: "Tüm İndirimli Ürünleri İncele",
+          Name: "Nike By You New Releases",
           Parent: 1,
           Children: [],
-        },
-        {
-          Id: 1001,
-          Name: "Kış Stilleri İndirimi",
-          Parent: 1,
-          Children: [],
-        },
+        }
       ],
     },
     {
       Id: 2,
-      Name: "Erkekler İçin İndirimli Ürünler",
+      Name: "Nike By You",
       Parent: null,
       Children: [
         {
           Id: 2000,
-          Name: "Erkekler İçin En Çok Satanlar",
+          Name: "Men",
           Parent: 2,
           Children: [],
         },
         {
           Id: 2001,
-          Name: "Ayakkabılar",
+          Name: "Women",
           Parent: 2,
           Children: [],
-        },
-        {
-          Id: 2002,
-          Name: "Giysiler",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2003,
-          Name: "Aksesuarlar ve Ekipmanlar",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2004,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2005,
-          Name: "Eşofman Altları ve Taytlar",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2006,
-          Name: "Ceketler ve Yelekler",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2007,
-          Name: "Tüm İndirimli Erkek Ürünlerini İncele",
-          Parent: 2,
-          Children: [],
-        },
+        }
       ],
     },
     {
       Id: 3,
-      Name: "Kadınlar İçin İndirimli Ürünler",
+      Name: "By Sport",
       Parent: null,
       Children: [
         {
           Id: 3000,
-          Name: "Kadınlar İçin En Çok Satanlar",
+          Name: "Lifestyle",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3001,
-          Name: "Ayakkabılar",
+          Name: "Running",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3002,
-          Name: "Giysiler",
+          Name: "Basketball",
           Parent: 3,
           Children: [],
         },
         {
           Id: 3003,
-          Name: "Aksesuarlar ve Ekipmanlar",
+          Name: "Football",
           Parent: 3,
           Children: [],
-        },
-        {
-          Id: 3004,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3005,
-          Name: "Eşofman Altları ve Taytlar",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3006,
-          Name: "Ceketler ve Yelekler",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3007,
-          Name: "Spor Sütyenleri",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3008,
-          Name: "Tüm İndirimli Kadın Ürünlerini İncele",
-          Parent: 3,
-          Children: [],
-        },
+        }
       ],
     },
     {
       Id: 4,
-      Name: "Çocuklar İçin İndirimli Ürünler",
+      Name: "Icons",
       Parent: null,
       Children: [
         {
           Id: 4000,
-          Name: "Çocuklar İçin En Çok Satanlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4001,
-          Name: "Ayakkabılar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4002,
-          Name: "Giysiler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4003,
-          Name: "Aksesuarlar ve Ekipmanlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4004,
-          Name: "Kapüşonlu Üstler ve Sweatshirt'ler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4005,
-          Name: "Eşofman Altları ve Taytlar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4006,
-          Name: "Ceketler ve Yelekler",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4007,
-          Name: "Spor Sütyenleri",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4008,
-          Name: "Tüm İndirimli Çocuk Ürünlerini İncele",
-          Parent: 4,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 5,
-      Name: "Spora Göre İndirimli Ürünler",
-      Parent: null,
-      Children: [
-        {
-          Id: 5000,
-          Name: "Koşu",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5001,
-          Name: "Spor Salonu ve Antrenman",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5002,
-          Name: "Yoga",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5003,
-          Name: "Futbol",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5004,
-          Name: "Basketbol",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5005,
-          Name: "Tenis",
-          Parent: 5,
-          Children: [],
-        },
-        {
-          Id: 5006,
-          Name: "Golf",
-          Parent: 5,
-          Children: [],
-        },
-      ],
-    },
-  ];
-  const collectionProducts = [
-    {
-      Id: 1,
-      Name: "Trend Ürünler",
-      Parent: null,
-      Children: [
-        {
-          Id: 1000,
-          Name: "Air Ayakkabılar",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1001,
-          Name: "FlyEase",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1002,
-          Name: "Flyknit",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1003,
-          Name: "Nike Free",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1004,
-          Name: "Metcon",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1005,
-          Name: "Air Zoom",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1006,
-          Name: "FlyEase",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1007,
-          Name: "SB Janoski",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1008,
-          Name: "Jordan X Paris Saint-Germain",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1009,
-          Name: "LeBron James Ayakkabıları",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1010,
-          Name: "SuperRep Ayakkabılar",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1011,
-          Name: "Kadınlar İçin Air Force 1",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1012,
-          Name: "Beyaz Air Force 1",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1013,
-          Name: "Netbol",
-          Parent: 1,
-          Children: [],
-        },
-        {
-          Id: 1014,
-          Name: "Temel Nike Ürünleri",
-          Parent: 1,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 2,
-      Name: "Günlük Giyim",
-      Parent: null,
-      Children: [
-        {
-          Id: 2000,
-          Name: "Air Force 1",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2001,
-          Name: "Blazer",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2002,
           Name: "Air Max",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2003,
-          Name: "Air Max 1",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2004,
-          Name: "Air Max 90",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2005,
-          Name: "Air Max 95",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2006,
-          Name: "Air Max 97",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2007,
-          Name: "Air Max 270",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2008,
-          Name: "Air Max 720",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2009,
-          Name: "Air Max 2090",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2010,
-          Name: "Air Max Plus",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2011,
-          Name: "VaporMax",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2012,
-          Name: "Staple Kicks",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2013,
-          Name: "Cortez",
-          Parent: 2,
-          Children: [],
-        },
-        {
-          Id: 2014,
-          Name: "Air Jordan 1",
-          Parent: 2,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 3,
-      Name: "Koşu",
-      Parent: null,
-      Children: [
-        {
-          Id: 3000,
-          Name: "Joyride",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3001,
-          Name: "React",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3002,
-          Name: "Pegasus",
-          Parent: 3,
-          Children: [],
-        },
-        {
-          Id: 3003,
-          Name: "Air Zoom",
-          Parent: 3,
-          Children: [],
-        },
-      ],
-    },
-    {
-      Id: 4,
-      Name: "Futbol",
-      Parent: null,
-      Children: [
-        {
-          Id: 4000,
-          Name: "Phantom",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4001,
-          Name: "Mercurial",
+          Name: "Air Force 1",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4002,
-          Name: "Tiempo",
+          Name: "Free",
           Parent: 4,
           Children: [],
         },
         {
           Id: 4003,
-          Name: "Futsal",
+          Name: "Flyknit",
           Parent: 4,
           Children: [],
-        },
-        {
-          Id: 4004,
-          Name: "Kişiye Özel Formalar",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4005,
-          Name: "Milli Takım Koleksiyonu",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4006,
-          Name: "Futbol Kulüpleri",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4007,
-          Name: "F.C. Barcelona",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4008,
-          Name: "Liverpool F.C.",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4009,
-          Name: "Paris Saint-Germain",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4010,
-          Name: "Chelsea",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4011,
-          Name: "Tottenham Hotspur",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4012,
-          Name: "Nike Football Training",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4013,
-          Name: "Cristiano Ronaldo",
-          Parent: 4,
-          Children: [],
-        },
-        {
-          Id: 4014,
-          Name: "Inter Milan",
-          Parent: 4,
-          Children: [],
-        },
+        }
       ],
     },
     {
@@ -1697,7 +1061,6 @@ const Navbar = () => {
         <label htmlFor="check" className="checkbtn">
           <i className="fa-solid fa-bars"></i>
         </label>
-
         <ul>
           <input type="checkbox" id="check" />
           <label htmlFor="check" className="checkbtn">
@@ -1705,30 +1068,19 @@ const Navbar = () => {
           </label>
           <Link to="/erkek">
             <li>
-              Yeni Çıkanlar
+              Men
               <div className="yeni-cikanlar hidden">
                 <div className="grid grid-cols-5 gap-4">
-                  <Menu options={newProducts} />
+                  <Menu options={menProducts} />
                 </div>
               </div>
             </li>
           </Link>
           <Link to="/erkek">
             <li>
-              Erkek
+              Women
               <div className="yeni-cikanlar hidden">
-                <div className="grid grid-cols-4 gap-4">
-                  {" "}
-                  <Menu options={manProducts} />
-                </div>
-              </div>
-            </li>
-          </Link>
-          <Link to="/erkek">
-            <li>
-              Kadın
-              <div className="yeni-cikanlar hidden">
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-5 gap-4">
                   <Menu options={womanProducts} />
                 </div>
               </div>
@@ -1736,7 +1088,7 @@ const Navbar = () => {
           </Link>
           <Link to="/erkek">
             <li>
-              Çocuk
+              Kids
               <div className="yeni-cikanlar hidden">
                 <div className="grid grid-cols-5 gap-4">
                   <Menu options={kidProducts} />
@@ -1746,7 +1098,7 @@ const Navbar = () => {
           </Link>
           <Link to="/erkek">
             <li>
-              İndirim
+              Customise
               <div className="yeni-cikanlar hidden">
                 <div className="grid grid-cols-5 gap-4">
                   <Menu options={saleProducts} />
@@ -1756,10 +1108,20 @@ const Navbar = () => {
           </Link>
           <Link to="/erkek">
             <li>
-              Koleksiyonlar
+              Sale
               <div className="yeni-cikanlar hidden">
                 <div className="grid grid-cols-5 gap-4">
-                  <Menu options={collectionProducts} />
+                  <Menu options={menProducts} />
+                </div>
+              </div>
+            </li>
+          </Link>
+          <Link to="/erkek">
+            <li>
+              SNKRS
+              <div className="yeni-cikanlar hidden">
+                <div className="grid grid-cols-5 gap-4">
+                  <Menu options={menProducts} />
                 </div>
               </div>
             </li>
@@ -1768,7 +1130,7 @@ const Navbar = () => {
         <div className="absolute right-28 hidden lg:block">
           <i className="fa-solid fa-magnifying-glass absolute top-1.5 left-2 opacity-50 text-lg"></i>
           <input
-            placeholder="Ara..."
+            placeholder="Search"
             className="bg-[#f0efef] p-2 rounded-full w-40 pl-8 hover:bg-[#ebe9e9]"
             type="text"
           />

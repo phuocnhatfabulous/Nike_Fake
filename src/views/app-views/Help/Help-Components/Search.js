@@ -6,7 +6,7 @@ const Search = () => {
     <div className="relative">
       <input
         className="search-input"
-        placeholder="Hangi konuda yardımcı olabiliriz?"
+        placeholder="What can we help you with?"
         type="text"
       />
       <i className="fas fa-search search-input-logo"></i>

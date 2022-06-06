@@ -4,7 +4,7 @@ const Gender = () => {
   const [gender, setGender] = useState(0);
   return (
     <div className="flex flex-col  p-2 gap-2">
-      <span className="mb-2">Cinsiyet ({gender})</span>
+      <span className="mb-2 font-bold">Gender ({gender})</span>
       <div className="items-center flex">
         <input
           onClick={(e) => {
@@ -13,7 +13,7 @@ const Gender = () => {
           type="checkbox"
           className="custom-checkbox"
         />
-        <label className="ml-1">Erkek</label>
+        <label className="ml-1">Men</label>
       </div>
       <div className="items-center flex">
         <input
@@ -23,7 +23,7 @@ const Gender = () => {
           type="checkbox"
           className="custom-checkbox"
         />
-        <label className="ml-1">Kadın</label>
+        <label className="ml-1">Women</label>
       </div>
       <div className="items-center flex">
         <input

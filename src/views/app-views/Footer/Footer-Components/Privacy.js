@@ -4,14 +4,14 @@ const Privacy = () => {
   return (
     <div className="mt-10 flex justify-between">
       <span className="text-[#555] text-xs">
-        © 2022 Nike, Inc. Tüm Hakları Saklıdır.
+        © 2022 Nike, Inc. Doan Phuoc Nhat.
       </span>
       <div className="flex gap-4 privacy">
-        <span>Rehberler</span>
-        <span>Kullanım Şartları</span>
-        <span>Satış Şartları</span>
-        <span>Şirket Ayrıntıları</span>
-        <span>Gizlilik Politikası</span>
+        <span>Guides</span>
+        <span>Terms of use</span>
+        <span>Terms of sale</span>
+        <span>Company Details</span>
+        <span>Privacy Policy</span>
       </div>
     </div>
   );

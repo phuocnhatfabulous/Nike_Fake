@@ -4,7 +4,7 @@ import "../Products.scss";
 const Colors = () => {
   return (
     <div className="p-2 ">
-      <span>Renkler</span>
+      <span className="font-bold">Colour</span>
       <div className="grid grid-cols-3">
         <div className="mt-2">
           <input type="checkbox" className="custom-color bg-black" />

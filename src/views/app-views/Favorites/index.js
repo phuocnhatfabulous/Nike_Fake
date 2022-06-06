@@ -6,9 +6,9 @@ const Favorites = () => {
   }, []);
   return (
     <div className="mt-4">
-      <h1 className="text-xl">Favoriler</h1>
+      <h1 className="text-xl">Favorites</h1>
       <div className="flex text-center justify-center mt-10 text-xl">
-        Favorilerine eklenen öğeler buraya kaydedilecek.
+        Items added to favorites will be saved here.
       </div>
     </div>
   );

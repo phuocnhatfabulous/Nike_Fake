@@ -16,7 +16,7 @@ const Card = ({ options }) => {
               <span>{e.Title}</span>
               <span className="text-gray-400">{e.Desc}</span>
               <span className="text-gray-400">{e.Color}</span>
-              <span className="mt-2">₺{e.Price}</span>
+              <span className="mt-2">${e.Price}</span>
             </div>
           </div>
         );

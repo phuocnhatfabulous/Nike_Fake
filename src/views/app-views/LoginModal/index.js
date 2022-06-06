@@ -41,7 +41,7 @@ const LoginModal = () => {
   }
   return (
     <>
-      <li onClick={openModal}>Oturum Aç</li>
+      <li onClick={openModal}>Sign In</li>
       <div>
         <Modal
           className="Modal"
@@ -62,38 +62,21 @@ const LoginModal = () => {
           </div>
           <div className="header-text">
             <span>
-              NIKE'A DAİR HER ŞEY İÇİN <br /> HESABIN
+              FOR EVERYTHING ABOUT NIKE <br /> YOUR ACCOUNT
             </span>
           </div>
           <form>
             <div className="login-panel-form">
-              <input required placeholder="E-posta adresi" type="text" />
-              <input required placeholder="Şifre" type="password" />
-              <span className="login-panel-desc">
-                Oturum açarak Nike'ın{" "}
-                <a
-                  href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&country=TR&language=tr&mobileStatus=false&requestType=redirect&uxId=com.nike.commerce.nikedotcom.web"
-                  className="underline"
-                >
-                  Gizlilik Politikası
-                </a>
-                'nı ve <br />{" "}
-                <a
-                  href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfUse&country=TR&language=tr&mobileStatus=false&requestType=redirect&uxId=com.nike.commerce.nikedotcom.web"
-                  className="underline"
-                >
-                  Kullanım Şartları
-                </a>
-                'nı kabul etmiş olursun.
-              </span>
-              <button className="login-panel-button">OTURUM AÇ</button>
+              <input required placeholder="Email address" type="text" />
+              <input required placeholder="Password" type="password" />
+              <button className="login-panel-button">Sign In</button>
               <span className="text-center mt-4 text-xs">
-                Üye değil misin?{" "}
+                Already a Member?{" "}
                 <span
                   className="underline cursor-pointer"
                   onClick={closeHandleRegister}
                 >
-                  Bize Katıl.
+                  Join Us.
                 </span>
               </span>
             </div>
@@ -117,12 +100,12 @@ const LoginModal = () => {
             />
           </div>
           <div className="header-text">
-            <span>NIKE ÜYESİ OL</span>
+            <span>BECOME A NIKE MEMBER</span>
           </div>
           <form>
             <div className="register-panel-form">
-              <input required placeholder="E-posta adresi" type="text" />
-              <input required placeholder="Şifre" type="password" />
+              <input required placeholder="Email address" type="text" />
+              <input required placeholder="Password" type="password" />
               <input required placeholder="Adı" type="text" />
               <input required placeholder="Soyadı" type="text" />
               <span className="text-center text-xs mt-2 text-gray-400">
@@ -135,28 +118,24 @@ const LoginModal = () => {
                 <button
                   type="button"
                   onClick={() => setGender(true)}
-                  className={`${
-                    Gender ? "border-black" : ""
-                  } border rounded-md py-2 w-full text-sm px-6`}
+                  className={`${Gender ? "border-black" : ""
+                    } border rounded-md py-2 w-full text-sm px-6`}
                 >
                   <i
-                    className={`${
-                      Gender ? "visible" : "hidden"
-                    } fa-solid fa-check`}
+                    className={`${Gender ? "visible" : "hidden"
+                      } fa-solid fa-check`}
                   ></i>{" "}
                   Erkek
                 </button>{" "}
                 <button
                   type="button"
                   onClick={() => setGender(false)}
-                  className={`${
-                    Gender ? "" : "border-black"
-                  } border rounded-md py-2 text-sm w-full px-6`}
+                  className={`${Gender ? "" : "border-black"
+                    } border rounded-md py-2 text-sm w-full px-6`}
                 >
                   <i
-                    className={`${
-                      Gender ? "hidden" : "visible"
-                    } fa-solid fa-check`}
+                    className={`${Gender ? "hidden" : "visible"
+                      } fa-solid fa-check`}
                   ></i>{" "}
                   Kadın
                 </button>
