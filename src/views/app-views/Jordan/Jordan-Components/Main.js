@@ -9,17 +9,17 @@ const Main = () => {
         alt="Jordan"
       />
       <div className="flex flex-col text-5xl font-extrabold">
-        <span className="font-bold text-base">Ici C'est Paris</span>
+        <span className="font-bold text-base">This is Paris</span>
         <span>JORDAN X</span>
         <span>PARIS-SAINT GERMAIN</span>
-        <span>KOLEKSİYONU</span>
+        <span>COLLECTION</span>
       </div>
 
       <span className="jordan-desc">
-        Jordan ile Paris Saint-Germain, yeni bir Colour grubu ve 1990'lardan ilham
-        alan dikkat çekici bir motifle iş birliklerini bir üst düzeye taşıyor.
+        Jordan and Paris Saint-Germain, a new Color group and inspiration from the 1990s
+        The area takes its collaborations to the next level with a striking motif.
       </span>
-      <button className="jordan-button">İncele</button>
+      <button className="jordan-button">Review</button>
     </div>
   );
 };

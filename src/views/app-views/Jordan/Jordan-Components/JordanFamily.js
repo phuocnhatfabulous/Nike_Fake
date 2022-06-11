@@ -4,7 +4,7 @@ const JordanFamily = () => {
   return (
     <div className="mt-10">
       <span className="font-extrabold tracking-tight text-2xl">
-        JORDAN AİLESİNE HOŞ GELDİN
+        WELCOME TO THE JORDAN FAMILY
         <div className="img-wrapper mt-6 flex flex-col gap-2">
           <img
             className="md:hidden"
@@ -18,13 +18,13 @@ const JordanFamily = () => {
           />
           <div className="flex flex-col  mt-4 text-center justify-center  md:flex">
             <span className="text-3xl mb-2 md:text-5xl">
-              BURADA OLMANIN BİR SEBEBİ VAR
+              THERE IS A REASON TO BE HERE
             </span>
             <span className="text-base font-thin tracking-wide md:text-lg">
-              Hepimiz Jordan Family DNA'sını taşıyoruz. Çok çalışma, azim.
+              We all carry the Jordan Family DNA. Hard work, perseverance.
               <br />
-              İhtişam ve motivasyonla aklına koyduğun <br /> her şeyi
-              yapabilirsin. Çünkü burada olmanın bir sebebi var.
+              You put your mind to it with magnificence and motivation. <br /> everything
+              you can do. Because there's a reason you're here.
             </span>
           </div>
         </div>

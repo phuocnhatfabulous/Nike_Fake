@@ -9,7 +9,7 @@ const Card = ({ options }) => {
             <img className="mb-2" src={e.Image} alt={e.Title} />
             <div className="flex flex-col">
               {e.New ? (
-                <span className="text-orange-500">Yeni Satışa Sunuldu</span>
+                <span className="text-orange-500">Newly Released</span>
               ) : (
                 ""
               )}

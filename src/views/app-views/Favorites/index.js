@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Favorites = () => {
   useEffect(() => {
-    document.title = "Favoriler | Nike Clone";
+    document.title = "Favorites | Nike Clone";
   }, []);
   return (
     <div className="mt-4">

@@ -4,7 +4,7 @@ import RegisterForm from "./Register-Components/RegisterForm";
 
 const Register = () => {
   useEffect(() => {
-    document.title = "Hesap Oluştur. Nike TR";
+    document.title = "Create Account. Nike UK";
   }, []);
 
   const [OturumAc, setOturumAc] = useState(true);

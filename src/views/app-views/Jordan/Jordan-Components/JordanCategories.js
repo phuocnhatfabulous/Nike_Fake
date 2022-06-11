@@ -24,7 +24,7 @@ const JordanCategories = ({ options }) => {
                 </div>
 
                 <div className="flex gap-2 justify-center">
-                  <button className="jordan-button text-lg ">İncele</button>
+                  <button className="jordan-button text-lg ">Review</button>
                 </div>
               </div>
             </span>

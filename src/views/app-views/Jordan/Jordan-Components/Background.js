@@ -5,7 +5,7 @@ const Background = () => {
   return (
     <div>
       <span className="font-extrabold tracking-tight text-2xl">
-        TASARIMIN ARKA PLANI
+        BACKGROUND OF THE DESIGN
         <div className="img-wrapper mt-6 flex flex-col gap-2">
           <img
             className="md:hidden"
@@ -23,8 +23,8 @@ const Background = () => {
           </div>
 
           <div className="flex gap-2 justify-center">
-            <button className="jordan-button text-lg">İncele</button>
-            <button className="jordan-button text-lg">İzle</button>
+            <button className="jordan-button text-lg">Review</button>
+            <button className="jordan-button text-lg">Watch</button>
           </div>
         </div>
       </span>

@@ -3,7 +3,7 @@ import '../../../../index.css'
 
 const LoginForm = ({ setOturumAc }) => {
   useEffect(() => {
-    document.title = "Giriş Yap. Nike TR";
+    document.title = "Login. Nike TR";
   }, []);
 
   return (

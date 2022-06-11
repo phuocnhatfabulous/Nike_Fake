@@ -4,36 +4,36 @@ import "./cart.scss";
 
 const Cart = () => {
   useEffect(() => {
-    document.title = "Sepet | Nike Clone";
+    document.title = "Basket | Nike Clone";
   }, []);
   return (
     <div className="container flex justify-around mt-2 ">
       <div className="flex flex-col gap-2">
-        <span className="text-2xl">Sepet</span>
-        <span>Sepetinde ürün yok.</span>
+        <span className="text-2xl">Basket</span>
+        <span>There are no items in your cart.</span>
         <div className="mt-48">
-          Favorilerini görüntülemek ister misin?{" "}
+          Want to view your favourites?{" "}
           <Link to="/register">
             <span className="underline opacity-70">Join Us</span>
           </Link>{" "}
-          veya{" "}
+          or {" "}
           <Link to="/login">
-            <span className="underline opacity-70">Oturum Aç</span>{" "}
+            <span className="underline opacity-70">Sign In</span>{" "}
           </Link>
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <span className="text-2xl">Özet</span>
-        <span> Ara Toplam: $0,00</span>
-        <span>Tahmini Kargo ve İşlem Ücreti: $0,00</span>
+        <span className="text-2xl">Summary</span>
+        <span> Subtotal: $0,00</span>
+        <span>Estimated Shipping and Processing Fee: $0.00</span>
         <hr />
         <span className="font-semibold">
-          Toplam: <span>$0,00</span>
+          Total: <span>$0,00</span>
         </span>
         <hr />
         <div className="flex flex-col buttons-cart">
-          <button disabled>Misafir Kullanıcı Olarak Ödeme</button>
-          <button disabled>Üye Girişi Yaparak Ödeme</button>
+          <button disabled>Payment as a Guest User</button>
+          <button disabled>Payment by Login</button>
         </div>
       </div>
     </div>

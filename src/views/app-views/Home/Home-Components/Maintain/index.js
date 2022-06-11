@@ -14,7 +14,7 @@ const Maintain = () => {
               New season. New Goals.
               <div className="mt-10">
                 <button className="bg-white rounded-full px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-300">
-                  İncele
+                  Review
                 </button>
               </div>
             </div>

@@ -10,11 +10,11 @@ const ContactUs = () => {
     },
     {
       Id: 2,
-      Title: "ÜRÜNLER VE SİPARİŞLER",
+      Title: "PRODUCTS AND ORDERS",
     },
     {
       Id: 3,
-      Title: "+90 (212) 365 04 90",
+      Title: "+84 912 345 678",
     },
     {
       Id: 4,
@@ -22,7 +22,7 @@ const ContactUs = () => {
     },
     {
       Id: 5,
-      Title: "Pazartesi - Cuma",
+      Title: "Monday - Friday",
     },
   ];
   const gridApps = [
@@ -37,7 +37,7 @@ const ContactUs = () => {
     },
     {
       Id: 3,
-      Title: "+31 (0) 20 5820542",
+      Title: "+84 912 345 678",
     },
     {
       Id: 4,
@@ -45,11 +45,7 @@ const ContactUs = () => {
     },
     {
       Id: 5,
-      Title: "Pazartesi - Cuma",
-    },
-    {
-      Id: 6,
-      Title: "*Yalnızca İngilizce",
+      Title: "Monday - Friday",
     },
   ];
   const gridMails = [
@@ -60,23 +56,19 @@ const ContactUs = () => {
     },
     {
       Id: 2,
-      Title: "ÜRÜNLER VE SİPARİŞLER",
+      Title: "PRODUCTS AND ORDERS",
     },
     {
       Id: 3,
-      Title: "Bize e-posta gönder",
+      Title: "Email us",
     },
     {
       Id: 4,
-      Title: "Bir iş günü içinde",
+      Title: "within one business day",
     },
     {
       Id: 5,
-      Title: "sana dönüş yapalım",
-    },
-    {
-      Id: 6,
-      Title: "*Yalnızca İngilizce",
+      Title: "let's get back to you",
     },
   ];
   const gridCorps = [
@@ -87,11 +79,11 @@ const ContactUs = () => {
     },
     {
       Id: 2,
-      Title: "ŞİRKET BİLGİLERİ VE SORULAR",
+      Title: "COMPANY INFORMATION AND QUESTIONS",
     },
     {
       Id: 3,
-      Title: "Lütfen Kurumsal İletişim Seçeneklerimize göz at",
+      Title: "Please have a look at our Corporate Communication Options",
     },
   ];
   const gridMarket = [
@@ -102,17 +94,17 @@ const ContactUs = () => {
     },
     {
       Id: 2,
-      Title: "MAĞAZA BULUCU",
+      Title: "STORE LOCATOR",
     },
     {
       Id: 3,
-      Title: "Yakınındaki Nike perakende mağazalarını bul",
+      Title: "Find Nike retail stores near you",
     },
   ];
 
   return (
     <div className="border flex flex-col p-6 mt-4 w-full h-full md:p-16">
-      <span className="text-3xl text-left">BİZE ULAŞ</span>
+      <span className="text-3xl text-left">CONTACT US</span>
       <hr className="my-4" />
       <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-3 md:gap-6">
         <ContactUsNav

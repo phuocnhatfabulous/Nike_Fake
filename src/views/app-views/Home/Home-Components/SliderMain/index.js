@@ -59,7 +59,7 @@ const SliderMain = () => {
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/303843af-3f79-45ed-84ab-e04f6d18b07d/air-zoom-pegasus-38-yol-koşu-ayakkabısı-FGw5Ll.png"
-            alt="Kadın Yol Yarış Ayakkabısı"
+            alt="Women's Road Race Shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
@@ -67,14 +67,14 @@ const SliderMain = () => {
               <span className="mr-10">$1.749,90</span>
             </div>
 
-            <span className="opacity-50">Kadın Yol Koşu Ayakkabısı</span>
+            <span className="opacity-50">Women's Road Running Shoes</span>
           </div>
         </div>
 
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/aa45540e-ad2a-40b5-a132-ff89d7cdfc33/air-zoom-alphafly-next-flyknit-yol-yarış-ayakkabısı-mGK8M0.png"
-            alt="Kadın Yol Yarış Ayakkabısı"
+            alt="Women's Road Race Shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
@@ -82,27 +82,27 @@ const SliderMain = () => {
               <span className="mr-10">$4.349,90</span>
             </div>
 
-            <span className="opacity-50">Kadın Yol Yarış Ayakkabısı</span>
+            <span className="opacity-50">Women's Road Race Shoes</span>
           </div>
         </div>
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/a17c1c96-1088-4ea6-bd8d-be5e8dca2110/zoomx-vaporfly-next-2-yol-yarış-ayakkabısı-dxSLFw.png"
-            alt="Erkek Yol Yarış Ayakkabısı"
+            alt="Men's Road Racing Shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
-              <span>Nike ZoomX Vaporfly Next% 2</span>
+              <span>Nike ZoomX Vaporfly Next 2%</span>
               <span className="mr-10">$3.629,90</span>
             </div>
 
-            <span className="opacity-50">Erkek Yol Yarış Ayakkabısı</span>
+            <span className="opacity-50">Men's Road Racing Shoes</span>
           </div>
         </div>
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/e8e530a3-2317-4783-819b-40860281daaf/zoomx-streakfly-yol-yarış-ayakkabısı-wWhMKs.png"
-            alt="Yol Yarış Ayakkabısı"
+            alt="Road Racing Shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
@@ -110,21 +110,21 @@ const SliderMain = () => {
               <span className="mr-10">$2.179,90</span>
             </div>
 
-            <span className="opacity-50">Yol Yarış Ayakkabısı</span>
+            <span className="opacity-50">Road Racing Shoes</span>
           </div>
         </div>
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/dec81d47-4188-405f-a126-37c47c665e87/zoomx-vaporfly-next-2-yol-yarış-ayakkabısı-wttWqR.png"
-            alt="Kadın Yol Yarış Ayakkabısı"
+            alt="Women's Road Race Shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <div className="flex justify-between">
-              <span>Nike ZoomX Vaporfly Next% 2</span>
+              <span>Nike ZoomX Vaporfly Next 2%</span>
               <span className="mr-10">$3.629,90</span>
             </div>
 
-            <span className="opacity-50">Kadın Yol Yarış Ayakkabısı</span>
+            <span className="opacity-50">Women's Road Race Shoes</span>
           </div>
         </div>
       </Slider>

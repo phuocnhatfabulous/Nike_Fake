@@ -4,7 +4,7 @@ const OtherJordan = () => {
   return (
     <div className="mt-20">
       <span className="text-2xl font-extrabold tracking-tight">
-        DİĞER JORDAN STİLLERİNİ KEŞFET
+        DISCOVER OTHER JORDAN STYLES
       </span>
       <div className="img-wrapper grid grid-cols-1 gap-3 mt-10 md:grid-cols-2 cursor-pointer">
         <div className="relative">
@@ -13,7 +13,7 @@ const OtherJordan = () => {
             alt="jordan"
           />
           <span className="absolute text-base bottom-10 left-10 text-white md:text-lg">
-            Jordan Basketbol Stillerini Keşfet
+            Discover Jordan Basketball Styles
           </span>
         </div>
         <div className="relative">
@@ -22,7 +22,7 @@ const OtherJordan = () => {
             alt="jordan"
           />
           <span className="absolute bottom-10 left-10 text-white text-base md:text-lg">
-            Koleksiyonu Keşfet
+            Explore the Collection
           </span>
         </div>
       </div>

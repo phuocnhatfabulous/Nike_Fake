@@ -88,7 +88,7 @@ const SliderSecondary = () => {
         <div className="hover:opacity-70 duration-300 cursor-pointer">
           <img
             src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_594,c_limit/a4bb4b42-92f8-40a2-8a43-f939bffb76da/air-max-95-ıronstone-dr0146-001-lansman-tarihi.jpg"
-            alt="Erkek Ayakkabısı"
+            alt="Man shoes"
           />
           <div className="image-description mt-4 flex flex-col">
             <span className="text-red-500">SNKRS Special</span>

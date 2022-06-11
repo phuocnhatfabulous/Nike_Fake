@@ -5,8 +5,7 @@ import Search from "./Help-Components/Search";
 
 const Help = () => {
   useEffect(() => {
-    document.title =
-      "Nike. Just do it. Nike VN";
+    document.title = "Help. Nike";
   }, []);
   return (
     <div className="flex flex-col text-center items-center justify-center mt-8">

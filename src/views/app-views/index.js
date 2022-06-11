@@ -26,7 +26,7 @@ const AppViews = () => {
         <Route path="/jordan" element={<Jordan />} />
         <Route path="/nike-app" element={<NikeApp />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/erkek" element={<ManProducts />} />
+        <Route path="/man" element={<ManProducts />} />
 
         <Route path="*" element={<Home />} />
       </Routes>
