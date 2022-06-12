@@ -1066,7 +1066,7 @@ const Navbar = () => {
           <label htmlFor="check" className="checkbtn">
             <i className="fa-solid fa-x close hidden"></i>
           </label>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               Men
               <div className="yeni-cikanlar hidden">
@@ -1076,7 +1076,7 @@ const Navbar = () => {
               </div>
             </li>
           </Link>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               Women
               <div className="yeni-cikanlar hidden">
@@ -1086,7 +1086,7 @@ const Navbar = () => {
               </div>
             </li>
           </Link>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               Kids
               <div className="yeni-cikanlar hidden">
@@ -1096,7 +1096,7 @@ const Navbar = () => {
               </div>
             </li>
           </Link>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               Customise
               <div className="yeni-cikanlar hidden">
@@ -1106,7 +1106,7 @@ const Navbar = () => {
               </div>
             </li>
           </Link>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               Sale
               <div className="yeni-cikanlar hidden">
@@ -1116,7 +1116,7 @@ const Navbar = () => {
               </div>
             </li>
           </Link>
-          <Link to="/erkek">
+          <Link to="/man">
             <li>
               SNKRS
               <div className="yeni-cikanlar hidden">

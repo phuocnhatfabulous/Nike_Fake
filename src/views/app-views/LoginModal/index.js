@@ -125,7 +125,7 @@ const LoginModal = () => {
                     className={`${Gender ? "visible" : "hidden"
                       } fa-solid fa-check`}
                   ></i>{" "}
-                  Erkek
+                  man
                 </button>{" "}
                 <button
                   type="button"

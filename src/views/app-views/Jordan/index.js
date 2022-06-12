@@ -103,7 +103,7 @@ const Jordan = () => {
     },
     {
       Id: 2,
-      Title: "JORDAN ERKEK",
+      Title: "JORDAN man",
       MiniImage:
         "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_437,c_limit/4a753d0f-88fd-43ae-be50-f7c3aca7bd96/jordan-markas%C4%B1.jpg",
       MainImage:
