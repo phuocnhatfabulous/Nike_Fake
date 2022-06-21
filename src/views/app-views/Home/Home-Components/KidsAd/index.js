@@ -25,7 +25,7 @@ const KidsAd = () => {
           </span>
         </div>
         <div className="flex justify-center">
-          <button className="bg-black rounded-full px-6 py-1.5 text-white text-opacity-80 hover:bg-gray-400">
+          <button className="bg-black rounded-full px-10 py-1.5 text-white text-opacity-80 hover:bg-gray-400">
             Review
           </button>
         </div>

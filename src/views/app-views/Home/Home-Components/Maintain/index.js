@@ -13,7 +13,7 @@ const Maintain = () => {
             <div className="absolute bottom-10 left-10 text-white">
               New season. New Goals.
               <div className="mt-10">
-                <button className="bg-white rounded-full px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-300">
+                <button className="bg-white hover:rounded-full  px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-500">
                   Review
                 </button>
               </div>
@@ -29,7 +29,7 @@ const Maintain = () => {
             <div className="absolute bottom-10 left-10 text-white">
               Revive and Renew
               <div className="mt-10">
-                <button className="bg-white rounded-full px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-300">
+                <button className="bg-white hover:rounded-full  px-4 py-1.5 text-black text-opacity-80 hover:bg-gray-500">
                   Review
                 </button>
               </div>
