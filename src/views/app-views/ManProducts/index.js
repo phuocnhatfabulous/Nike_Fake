@@ -325,7 +325,7 @@ const ManProducts = () => {
     <div className="mt-4">
       <HeadText />
       <div className="md:grid md:grid-cols-12">
-        <div className="md:mt-4 md:w-52 md:max-h-screen md:min-h-[50vh] md:overflow-scroll md:overflow-x-hidden md:col-span-2 md:sticky md:top-10 hidden md:block">
+        <div className="md:mt-4 md:w-52 md:max-h-screen md:min-h-[50vh] md:overflow-scroll md:overflow-x-hidden md:col-span-2 md:sticky md:top-24 hidden md:block">
           <List />
           <hr className="mt-4" />
           <Gender />

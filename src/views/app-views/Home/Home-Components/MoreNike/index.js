@@ -12,7 +12,7 @@ const MoreNike = () => {
               src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_751,c_limit/0bafb728-2ae2-416f-bb18-5935801c8071/resmi-nike-sitesi.png"
               alt="More With Nike"
             />
-            <button className="button-in-photo-more">Male</button>
+            <button className="button-in-photo-more">Man</button>
           </div>
         </div>
         <div className="col-span-1">

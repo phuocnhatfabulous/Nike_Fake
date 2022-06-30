@@ -992,18 +992,18 @@ const Navbar = () => {
     },
     {
       Id: 5,
-      Name: "Spora Göre İndirimli Ürünler",
+      Name: "Discounted Products by Sports",
       Parent: null,
       Children: [
         {
           Id: 5000,
-          Name: "Koşu",
+          Name: "Running",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5001,
-          Name: "Spor Salonu ve Antrenman",
+          Name: "Gym and Training",
           Parent: 5,
           Children: [],
         },
@@ -1015,19 +1015,19 @@ const Navbar = () => {
         },
         {
           Id: 5003,
-          Name: "Futbol",
+          Name: "Football",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5004,
-          Name: "Basketbol",
+          Name: "Basketball",
           Parent: 5,
           Children: [],
         },
         {
           Id: 5005,
-          Name: "Tenis",
+          Name: "Tennis",
           Parent: 5,
           Children: [],
         },
@@ -1042,7 +1042,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center">
+    <nav className="flex justify-between items-center ">
       <div className="Logo hover:opacity-50 cursor-pointer">
         <Link to="/home">
           <svg
