@@ -6,7 +6,7 @@ const Spor = () => {
       <span className="font-bold">Sport</span>
       <div className="mt-2">
         <input type="checkbox" className="custom-checkbox" />
-        <label className="ml-1">Günlük Giyim</label>
+        <label className="ml-1">Casual Wear</label>
       </div>
       <div className="mt-2">
         <input type="checkbox" className="custom-checkbox" />

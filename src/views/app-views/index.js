@@ -15,6 +15,7 @@ const NikeAppPage = React.lazy(() => import("./NikeApp"));
 const RegisterPage = React.lazy(() => import("./Register"));
 const ManProducts = React.lazy(() => import("./ManProducts"));
 
+
 const AppViews = () => {
   return (
     <Suspense fallback={<p>Loading...</p>}>
