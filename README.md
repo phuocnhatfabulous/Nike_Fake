@@ -1,4 +1,34 @@
-<img src="https://i.imgur.com/PYwro4l.jpg"></img>
+# Technical requirement:
 
-<h3>Responsive Nike clone with ReactJS, TailwindCSS, SCSS.<h3>
-  <a href="https://nikeclone-onurucar.netlify.app">DEMO</a>
+> FE: JavaScript (ReactJS), SCSS, TailwindCss, ...
+
+# How to run
+
+1. Install all dependencies for a project
+
+```bash
+  yarn install
+```
+
+2. Run project
+
+```bash
+  yarn start
+```
+
+---
+
+#### **Menu**
+
+![hehehe](public/img1.png)
+![hehehe](public/img2.png)
+<br>
+
+#### **Products**
+
+![hehehe](public/img3.png)
+<br>
+
+#### **Sign up**
+
+![hehehe](public/img4.png)
